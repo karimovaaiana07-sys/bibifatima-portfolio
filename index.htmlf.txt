@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bibifatima Kusaiyn – Legendary Web Designer</title>
+    <meta name="description" content="Official personal website of Bibifatima Kusaiyn, legendary web & UX designer with 60+ international awards, mentor and creative director.">
+    <meta name="keywords" content="Bibifatima Kusaiyn, web designer, UX, UI, portfolio, Kazakhstan, mentor, creative director">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon: положи файл favicon.png рядом с index.html -->
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <!-- Подключаем внешний CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="top">
+        <div class="container header-inner">
+            <div class="logo">
+                BK<span class="logo-bracket">&lt;/&gt;</span>
+            </div>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#career">Career</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#stats">Impact</a></li>
+                    <li><a href="#media">Media</a></li>
+                    <li><a href="#contact">Mentoring</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section class="hero">
+            <div class="container hero-inner">
+                <div class="hero-text">
+                    <h1>Bibifatima Kusaiyn</h1>
+                    <h2>Legendary Web &amp; UX Designer</h2>
+                    <p>
+                        At <time datetime="2085-01-01">60 years old</time> I am still in love with clean typography,
+                        bold layouts &amp; human-centered design. For four decades I’ve been building interfaces
+                        that brands <strong>trust</strong> and users <em>remember</em>.
+                    </p>
+                    <p>
+                        From small Kazakhstani startups to global Fortune&nbsp;500 companies &mdash; my design systems
+                        live on millions of screens every day.
+                    </p>
+                    <a href="#contact" class="btn-primary">Request mentoring &nbsp;&rarr;</a>
+                </div>
+
+                <figure class="hero-photo">
+                    <!-- Замени путь на свою фотку -->
+                    <img src="img/bibifatima-portrait.jpg" alt="Portrait of Bibifatima Kusaiyn at 60">
+                    <figcaption>60+ international awards in web design &amp; UX.</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- ABOUT -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Bibifatima</h2>
+                <div class="about-grid">
+                    <article>
+                        <h3>Who I am</h3>
+                        <p>
+                            I am a web designer, creative director and mentor based in Almaty.
+                            My career started with simple HTML &amp; CSS pages and grew into leading
+                            global teams &amp; complex digital products.
+                        </p>
+                        <p>
+                            I believe that design is not decoration, but a clear language between
+                            business and people. My style is a balance of minimalism, bold grids
+                            and meaningful micro-interactions.
+                        </p>
+                        <p>
+                            Favourite motto: <q>Design less, but better.</q>
+                        </p>
+                    </article>
+
+                    <aside class="quote-card">
+                        <h4>Short bio</h4>
+                        <ul>
+                            <li>Age: <strong>60+</strong></li>
+                            <li>Location: Almaty, Kazakhstan</li>
+                            <li>Role: Global Web &amp; UX Director</li>
+                            <li>Experience: 40+ years</li>
+                        </ul>
+                        <p class="small">
+                            <mark>Fun fact:</mark> I still open the browser DevTools every single day.
+                        </p>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <!-- CAREER TIMELINE (OL) -->
+        <section id="career" class="section section-alt">
+            <div class="container">
+                <h2>Career timeline</h2>
+                <p>
+                    Imagine scrolling a long, beautiful one-page website. That’s how my life in design feels.
+                </p>
+                <ol class="timeline">
+                    <li>
+                        <h3>2025–2035: From freelancer to agency founder</h3>
+                        <p>
+                            Started as a freelance web designer, building landing pages and small corporate sites.
+                            Launched my own studio <strong>BK Studio</strong>, focused on high-end UI/UX.
+                        </p>
+                    </li>
+                    <li>
+                        <h3>2035–2050: Global product design lead</h3>
+                        <p>
+                            Led design teams for international SaaS products, created design systems used
+                            on millions of devices, and spoke at major design conferences.
+                        </p>
+                    </li>
+                    <li>
+                        <h3>2050–2085: Mentor, investor &amp; author</h3>
+                        <p>
+                            Invested in young design teams, wrote books on web design, and mentored
+                            hundreds of designers across the world.
+                        </p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- SKILLS + FLOAT EXAMPLE -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2>Core skills</h2>
+                <div class="skills-wrapper clearfix">
+                    <article class="skills-block">
+                        <h3>Design</h3>
+                        <ul>
+                            <li>UX Research &amp; User Flows</li>
+                            <li>Design Systems &amp; Component Libraries</li>
+                            <li>Interaction &amp; Motion Design</li>
+                            <li>Accessibility-first Layouts</li>
+                        </ul>
+                    </article>
+
+                    <article class="skills-block">
+                        <h3>Code</h3>
+                        <ul>
+                            <li>Semantic HTML5 &amp; modern CSS</li>
+                            <li>Responsive &amp; adaptive layouts</li>
+                            <li>Design-to-code handoff</li>
+                            <li>Performance-oriented front-end</li>
+                        </ul>
+                    </article>
+
+                    <!-- Блок с float -->
+                    <aside class="skills-quote">
+                        <h4>Design philosophy</h4>
+                        <blockquote>
+                            Good web design is when the user feels smart &mdash; not the designer.
+                        </blockquote>
+                        <p class="small">
+                            I mentor designers to focus on clarity, not ego. Every pixel must have a reason.
+                        </p>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <!-- TABLE (STATS) -->
+        <section id="stats" class="section section-alt">
+            <div class="container">
+                <h2>Impact in numbers</h2>
+                <p>
+                    A small selection of what I achieved so far:
+                </p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Metric</th>
+                            <th>Value</th>
+                            <th>Comment</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Web projects launched</td>
+                            <td>320+</td>
+                            <td>From minimal portfolios to large enterprise platforms.</td>
+                        </tr>
+                        <tr>
+                            <td>International design awards</td>
+                            <td>60+</td>
+                            <td>Including Awwwards, CSS Design Awards &amp; Webby nominations.</td>
+                        </tr>
+                        <tr>
+                            <td>Designers mentored</td>
+                            <td>1 500+</td>
+                            <td>Many became creative directors &amp; founders.</td>
+                        </tr>
+                        <tr>
+                            <td>Average client happiness</td>
+                            <td>98%</td>
+                            <td>Measured via long-term NPS &amp; repeat contracts.</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="progress-wrapper">
+                    <p>Lifetime learning progress:</p>
+                    <progress value="90" max="100"></progress>
+                    <span class="small">Because there is always 10% more to learn.</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- MEDIA: VIDEO / FIGURE -->
+        <section id="media" class="section">
+            <div class="container">
+                <h2>Talks &amp; media</h2>
+                <div class="media-layout">
+                    <figure>
+                        <!-- Можешь позже добавить реальное видео -->
+                        <video controls>
+                            <source src="media/bibifatima-ux-talk.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <figcaption>
+                            Keynote: &ldquo;Designing calm interfaces in a noisy world&rdquo;.
+                        </figcaption>
+                    </figure>
+
+                    <article>
+                        <h3>Featured in</h3>
+                        <ul>
+                            <li>
+                                <a href="#" title="Imaginary design magazine feature">
+                                    Global Design Leaders Magazine
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="International UX Conference">
+                                    International UX Summit 2042
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Kazakhstan Tech Awards">
+                                    Kazakhstan Tech Awards &mdash; Lifetime achievement
+                                </a>
+                            </li>
+                        </ul>
+                        <p>
+                            I regularly share case studies, design systems and mentoring tips on my blog
+                            and conference stages worldwide.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT + FORM -->
+        <section id="contact" class="section section-alt">
+            <div class="container">
+                <h2>Mentoring &amp; collaboration</h2>
+                <p>
+                    If you want feedback on your portfolio, design system or product idea,
+                    fill out the form below. I personally read every message.
+                </p>
+
+                <form action="#" method="post" class="contact-form">
+                    <div class="form-row">
+                        <label for="name">Full name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="email">Email address</label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="topic">Topic</label>
+                        <select id="topic" name="topic">
+                            <option value="portfolio">Portfolio review</option>
+                            <option value="career">Career advice</option>
+                            <option value="project">Web project consultation</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tell me about your goals"></textarea>
+                    </div>
+
+                    <div class="form-row checkbox-row">
+                        <label>
+                            <input type="checkbox" name="newsletter" checked>
+                            I want to receive rare, high-value design insights.
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn-primary">Send request</button>
+                </form>
+
+                <!-- Extra info с details/summary -->
+                <details class="mentoring-details">
+                    <summary>How my mentoring process works</summary>
+                    <p>
+                        We start with a 60-minute video call where we review your current work,
+                        define your goals and build a step-by-step plan. After that you receive
+                        a written summary and a list of practical actions.
+                    </p>
+                </details>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-inner">
+            <address>
+                Created by <strong>Bibifatima Kusaiyn</strong><br>
+                Web &amp; UX Director, Mentor<br>
+                Almaty, Kazakhstan
+            </address>
+            <p class="small">
+                &copy; 2085 Bibifatima Kusaiyn. All rights reserved.
+            </p>
+            <a href="#top" class="back-to-top">Back to top &uarr;</a>
+        </div>
+    </footer>
+</body>
+</html>
